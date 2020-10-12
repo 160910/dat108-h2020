@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MAL for WebShopServleten</title>
+</head>
+<body>
+<p>Du er innlogget som Per</p>
+Din handlekurv:<br />
+<table border="1">
+<tr><th>Vare</th><th>Pris</th><th>Antall</th><th>Beløp</th></tr>
+<tr><td>Bukse</td><td align="right">699,00</td><td align="right">1</td><td align="right">699,00</td></tr>
+<tr><td>Genser</td><td align="right">399,00</td><td align="right">2</td><td align="right">798,00</td></tr>
+<tr><td><b>Total</b></td><td align="right"><b>399,00</b></td><td align="right"><b>2</b></td><td align="right"><b>798,00</b></td></tr>
+</table><br/>
+<form action="handle" method="post">
+  <fieldset>
+    <legend>Handle</legend>
+        <input type="checkbox" name="vare" value="bukse" />Bukse<br/>
+        <input type="checkbox" name="vare" value="genser" />Genser<br/>
+    <p><input type="submit" value="Legg i handlekurv" /></p>
+  </fieldset>
+</form>
+<form action="logout" method="get">
+  <fieldset>
+    <p><input type="submit" value="Logg ut" /></p>
+  </fieldset>
+</form>
+
+</body>
+</html>

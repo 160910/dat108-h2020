@@ -8,6 +8,6 @@ public class Validator {
      * 
      */
     public static boolean isValidUsername(String username) {
-    	return false;
+    	return true;
     }
 }
